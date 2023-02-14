@@ -1,6 +1,11 @@
 class Strings:
-    def getString(striiing):
-        striiing.str = input()
+    def __init__(self):
+        self.string=""
+    def getString(self):
+        self.string = input()
         
-    def printString(striiing):
-        print(striiing.str.upper())
+    def printString(self):
+        print(self.string.upper())
+obj = Strings()
+obj.getString()
+obj.printString()
