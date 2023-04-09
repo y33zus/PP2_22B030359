@@ -34,7 +34,7 @@ while True:
     rot_left, y = rot_center(seconds_hand, y, 400, 300)
 
     display.blit(back, (0, 0))
-    display.blit(rot_right, x)
+    #display.blit(rot_right, x)
     display.blit(rot_left, y)
 
     pygame.display.update()
