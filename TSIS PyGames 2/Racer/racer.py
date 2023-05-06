@@ -26,8 +26,8 @@ SCORE = 0
 COIN_SCORE = 0
 
 #sounds
-sound1 = pygame.mixer.Sound('E:\Учёба\PP2\TSIS PyGame 2\Racer\lab8_racer_background.wav')
-sound2 = pygame.mixer.Sound('E:\Учёба\PP2\TSIS PyGame 2\Racer\lab8_racer_crash.wav')
+sound1 = pygame.mixer.Sound(r'E:\Учёба\PP2\GitHub\PP2_22B030359\TSIS PyGames 2\Racer\background_music.wav')
+sound2 = pygame.mixer.Sound(r'E:\Учёба\PP2\GitHub\PP2_22B030359\TSIS PyGames 2\Racer\crash.wav')
 
 #fonts
 font = pygame.font.SysFont("Verdana", 60)

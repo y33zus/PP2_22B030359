@@ -7,12 +7,12 @@ screen = pygame.display.set_mode((500, 500))
 pygame.display.set_caption("circle")
 
 # переменные круга
-circle_radius = 25
+circle_radius = 50
 circle_x = 250
 circle_y = 250
 
 white = (255, 255, 255)
-black = (0, 0, 0)
+black = (130, 130, 130)
 
 pygame.draw.circle(screen, black, (circle_x, circle_y), circle_radius)
 

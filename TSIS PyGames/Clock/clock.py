@@ -10,9 +10,9 @@ pygame.init()
 
 display = pygame.display.set_mode((800, 600))
 
-back = pygame.image.load('E:\Учёба\PP2\TSIS PyGame\Clock\clock.jpg')
-minute_hand = pygame.image.load('E:\Учёба\PP2\TSIS PyGame\Clock\minutes.jpg')
-seconds_hand = pygame.image.load('E:\Учёба\PP2\TSIS PyGame\Clock\seconds.jpg')
+back = pygame.image.load(r'E:\Учёба\PP2\GitHub\PP2_22B030359\TSIS PyGames\Clock\background.jpeg')
+minute_hand = pygame.image.load(r'E:\Учёба\PP2\GitHub\PP2_22B030359\TSIS PyGames\Clock\minutes.png')
+seconds_hand = pygame.image.load(r'E:\Учёба\PP2\GitHub\PP2_22B030359\TSIS PyGames\Clock\seconds.png')
 
 back = pygame.transform.scale(back, (800, 600))
 minute_hand = pygame.transform.scale(minute_hand, (300, 300))
@@ -34,7 +34,7 @@ while True:
     rot_left, y = rot_center(seconds_hand, y, 400, 300)
 
     display.blit(back, (0, 0))
-    #display.blit(rot_right, x)
+    display.blit(rot_right, x)
     display.blit(rot_left, y)
 
     pygame.display.update()
